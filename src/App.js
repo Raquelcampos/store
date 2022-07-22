@@ -3,10 +3,7 @@ import "./App.css"
 import Celular from './img/celular.jpg'
 import Tablet from './img/tablet.jpg'
 import Notebook from './img/notebook.jpg'
-
-
-
-
+import Menu from './img/menu-img.png'
 export default class App extends Component{
   state = {
     numero:0,
@@ -48,6 +45,7 @@ render(){
           <li className='menuClik'>ABOUT</li>
           <li className='menuClik'>CONTACT</li>
         </ul>
+        <img className='menu-hamburguer' src={Menu}  />
       </header>
       <h1>Store</h1>
       <div className='linha'></div>
